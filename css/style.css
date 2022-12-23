@@ -1,0 +1,828 @@
+/* онулювання*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+   }
+   *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   :focus, :active {outline: none;}
+   a:focus, a:active {outline: none;}
+   
+   nav,footer,header,aside{display: block;}
+   
+   html,body{
+       height: 100%;
+       width: 100%;
+       font-size: 100%;
+       line-height: 1;
+       font-size: 14px;
+       -ms-text-size-adjust: 100%;
+       -moz-text-size-adjust: 100%;
+       -webkit-text-size-adjust: 100%;
+   }
+   input,button,textarea{font-family: inherit;}
+   
+   input::-ms-clear{display: none;}
+   button{cursor: pointer;}
+   button::-moz-focus-inner {padding: 0; border: 0;}
+   a, a:visited{text-decoration: none;}
+   a:hover{text-decoration: none;}
+   ul li{list-style: none;}
+   img{vertical-align: top;}
+   
+   h1,h2,h3,h4,h5,h6{font-size: inherit;  font-weight: 400;}
+  
+   /*код*/
+html,  
+body{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    color: #fff;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    font-family: 'Larsseit';
+    right: -50px;
+
+}
+
+.wrapper {
+    height: 100vh;
+    min-width: 1440px;
+    flex: 0 0 100%;
+}
+
+.conteiner{
+    
+    position: absolute;
+   background: #F4F9E2;
+   width: 1117px;
+   height: 840px;  
+}
+.header {
+    
+}
+.header__body {
+}
+.header__title {
+    position: absolute;
+    width: 484px;
+    height: 27px;
+    left: 179px;
+    top: 27px;
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #62D0DF;
+}
+.header__menu {
+   display: flex;
+  
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 233px;
+    height: 14px;
+    left: 607px;
+    top: 38px;
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #22356F;
+
+}
+.list :first-child{
+    text-decoration: underline;
+}
+.header__button {
+        z-index: 3;
+        background: #62D0DF;
+        border-radius: 50px;
+        position: absolute;
+        width: 150px;
+        height: 50px;
+        left: 1159px;
+        top: 27px;
+        font-size: 14px;
+        line-height: 16px;
+       text-transform: uppercase;
+       color: #fff;
+    
+}
+
+
+.main__inform {
+   display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+   
+
+}
+.main__title {
+    position: absolute;
+    width: 484px;
+    height: 64px;
+    left: 179px;
+    top: 241px;
+    
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    
+    color: #62D0DF;
+}
+.big__title {
+    position: absolute;
+    width: 484px;
+    height: 167px;
+    left: 179px;
+    top: 305px;
+    
+    font-family: 'Larsseit';
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    
+    color: #22356F;
+}
+
+.main__text {
+    position: absolute;
+    width: 469px;
+    height: 161px;
+    left: 179px;
+    top: 491px;
+    
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 42px;
+    
+    color: #22356F;
+}
+.main__button {
+}
+.main__buttoninform {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 179px;
+    top: 715px;
+
+    background: #F9B640;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.header__buttoninformtwo {
+    position: absolute;
+    width: 150px;
+    height: 43px;
+    left: 367px;
+    top: 718px;
+
+    
+    font-size: 16px;
+    line-height: 23px;
+   display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    background-color: #F4F9E2;
+    color: #FAB63E;
+}
+.picture__main {
+   position: absolute;
+   width: 807.71px;
+   height: 544.93px;
+    left: 736.07px;
+    top: -40.07px;
+    background:  #FFFFFF;
+    border-radius: 312.159px;
+    transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
+    
+ 
+}
+.picture__body{
+    
+}
+.picture__body img {
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: rotate(-40deg)  scale(1, 1) translate(0px, 130px);
+    border-radius: 300px;
+    object-fit:cover;
+    overflow: hidden;
+
+}
+
+.second__conteiner{
+    
+   position: absolute;
+    width: 1440px;
+    height: 607px;
+    left: 0px;
+    top: 842px;
+    background: #62D0DF;
+    
+}
+
+.second__body {
+}
+.second__title {
+    position: absolute;
+    width: 223px;
+    height: 51px;
+    left: 178px;
+    top: 153px;
+
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+}
+.second__text {
+    position: absolute;
+    width: 555px;
+    height: 235px;
+    left: 179px;
+    top: 275px;
+
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+.second__picture {
+    position: absolute;
+    width: 525px;
+    height: 604px;
+    left: 915px;
+    top: 0;
+}
+.second__text span{
+    font-weight: 600;
+}
+.third__conteiner {
+    position: absolute;
+    width: 1440px;
+    height: 361px;
+    left: 0px;
+    top: 1446px;
+
+    background: #FFFFFF;
+}
+.third__title {
+    position: absolute;
+    width: 93px;
+    height: 210px;
+    left: 106px;
+    top: 156px;
+
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+
+    color: #22356F;
+}
+.third__text {
+    position: absolute;
+    width: 592px;
+    height: 210px;
+    left: 424px;
+    top: 150px;
+
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+
+    color: #22356F;
+}
+
+.fourth__conteiner {
+    width: 1440px;
+    height: 460px;
+    background-color: #FFFFFF;
+}
+.fourth__title {
+    height: 200px;
+    width: 1440px;
+    position: absolute;
+    padding: 50px 0 0 0;
+    left: 0;
+    top: 1800px;
+    background-color: #FFFFFF;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: rgba(34, 53, 111, 0.5);
+
+}
+
+.block__body {
+    display: flex;
+}
+.first__block {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 0px;
+    top: 1927px;
+
+    background: #c3aca9;
+}
+.block__title h2 {
+    position: absolute;
+    width: 232px;
+    height: 54px;
+    left: 78px;
+    top: 95px;
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    display: flex;
+
+    color: #FFFFFF;
+}
+.block__title h2::before{
+    content: "•";
+    display: inline-block;
+    padding: 0 15px 0 0px;
+    color: #E9B730;
+}
+.block__line{
+    position: absolute;
+width: 255px;
+height: 72px;
+left: 52.5px;
+top: 0px;
+
+color: #ffd4d1;
+box-shadow: inset 0px -1px 0px #FFFFFF;
+}
+.second__block {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 360px;
+    top: 1927px;
+
+    background: #C4E769;
+}
+.third__block {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 720px;
+    top: 1927px;
+
+    background: #62D0DF;
+}
+.fourth__block {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 1078px;
+    top: 1927px;
+
+    background: #0052C1;
+}
+
+.fifth__conteiner {
+    display: flex;
+}
+.second__blockbody {
+}
+.second__blockfirst {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 0px;
+    top: 2407px;
+
+    background: #22356F;
+}
+.block__line {
+}
+.second__blocksecond {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 480px;
+    top: 2407px;
+
+    background: #0052C1;
+}
+.second__blockthreed {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 960px;
+    top: 2407px;
+}
+.second__blockfourth {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 0px;
+    top: 2887px;
+
+    background: #62D0DF;
+}
+.second__blockfive {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 480px;
+    top: 2887px;
+
+    background: #c4c7e5;
+}
+.second__blocksix {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 960px;
+    top: 2887px;
+
+    background: #8F00FF;
+}
+.block__title_second{
+    position: absolute;
+    width: 157px;
+    height: 72px;
+    left: 104px;
+    top: 126px;
+   
+
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+}
+.block__title_second h2::before{
+    content: "•";
+    display: inline-block;
+    padding: 0 15px 0 0px;
+    color: #E9B730;
+}
+
+.sixth__conteiner {
+    display: flex;
+}
+.sixth__body {
+
+}
+.first__textblock {
+    position: absolute;
+    width: 480px;
+    height: 240px;
+    top: 3389px;
+    left: 0;
+}
+.text__blockinfo {
+    position: absolute;
+    top: 141px;
+    left: 105px;
+    width: 298px;
+    height: 84px;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+
+    color: rgba(34, 53, 111, 0.5);
+}
+.second__textblock {
+    position: absolute;
+    width: 480px;
+    height: 240px;
+    top: 3389px;
+    left: 480px;
+}
+.third__textblock {
+    position: absolute;
+    width: 480px;
+    height: 240px;
+    top: 3389px;
+    left: 960px;
+}
+.fourth__textblock {
+    position: absolute;
+    width: 480px;
+    height: 240px;
+    top: 3629px;
+    left: 0px;
+}
+.five__textblock {
+    position: absolute;
+    width: 480px;
+    height: 240px;
+    top: 3629px;
+    left: 480px;
+}
+.six__textblock {
+    position: absolute;
+    width: 480px;
+    height: 240px;
+    top: 3629px;
+    left: 960px;
+}
+.six__title{
+    position: absolute;
+   top: 77px;
+   left: 105px;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    font-family: 'Larsseit';
+    color: #22356F;
+
+}
+
+.seven__conteiner {
+ 
+    width: 1440px;
+    height: 800px;
+    top: 3909px;
+
+}
+.conteiner__bodyItem {
+    display: flex;
+}
+.seven__image img {
+    position: absolute;
+    width: 480px;
+    height: 800px;
+    left: 0px;
+    top: 3909px;
+}
+.seven__information {
+    position: absolute;
+    margin: 0 175px 42px 106px;
+    top: 0;
+    left: 0;
+  
+}
+.seven__question {
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    left: 586px;
+    top: 4012px;
+
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+
+    color: #22356F;
+}
+.seven__text {
+    position: absolute;
+    width: 675px;
+    height: 215px;
+    left: 586px;
+    top: 4257px;
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+
+    color: #22356F;
+}
+.seven__text span{
+    color: #6CD3E1;
+}
+.seven__help {
+    position: absolute;
+    width: 518px;
+    height: 43px;
+    left: 586px;
+    top: 4624px;
+
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+   display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #FAB63E;
+}
+.eight__conteiner {
+    position: absolute;
+    display: flex;
+    top: 4709px;
+}
+.eight__bodyitem {
+    width: 1440px;
+    height: 800px;
+    background-color: #22356F;
+}
+.eight__image {
+    width: 480px;
+    height: 800px;
+    position: relative;
+    left:  960px;
+}
+.eight__image img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+}
+.eight__information {
+    position: absolute;
+    left: 180px;
+    top: 103px;
+    width: 704px;
+    height: 638px;
+}
+.contactus {
+    position: absolute;
+    width: 120px;
+    height: 14px;
+    left: 0;
+    top: 0;
+
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
+.eight__text {
+    top: 203px;
+}
+.eight__title {
+    position: absolute;
+    width: 704px;
+    height: 66px;
+    top: 230px;
+
+
+    font-family: 'Larsseit';
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+.text__element {
+    position: absolute;
+    width: 579px;
+    height: 253px;
+  top: 371px;
+
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+
+    color: #FFFFFF;
+
+}
+.gethelp {
+    position: absolute;
+    top: 589px;
+    width: 518px;
+    height: 43px;
+   
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #62D0DF;
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    width: 1440px;
+    height: 460px;
+    top: 5509px;
+}
+.footer__img {
+    width: 570px;
+    height: 380px;
+    position: relative;
+}
+.footer__img img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+}
+.footer__contact {
+  display: flex;
+  position: absolute;
+    width: 765px;
+    height: 208px;
+    left: 638px;
+    top: 98px;
+}
+.text__info {
+
+}
+.footer__title {
+    width: 240px;
+    height: 48px;
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+
+    color: #22356F;
+}
+.text__info_info {
+    position: absolute;
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+  
+    width: 207px;
+    height: 115px;
+
+    color: rgba(34, 53, 111, 0.5);
+}
+.text__contact {
+}
+.text__contact_text {
+    position: absolute;
+    width: 240px;
+    height: 115px;
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+
+    color: rgba(34, 53, 111, 0.5);
+
+}
+.text__office {
+}
+.text__office_office {
+    position: absolute;
+    width: 240px;
+    height: 115px;
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+
+    color: rgba(34, 53, 111, 0.5);
+}
+.footer__copyright {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    background: #62D0DF;
+  
+    top: 380px;
+}
+.footer__copy {
+    position: absolute;
+    width: 351px;
+    height: 22px;
+    top: 32px;
+    left: 194px;
+
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+}
